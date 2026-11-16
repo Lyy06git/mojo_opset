@@ -1,0 +1,40 @@
+mojo_opset/config/npu_a2.yaml
+  h_093ac48a6d6e3e 18,41
+mojo_opset/config/npu_a5.yaml
+  h_093ac48a6d6e3e 21,45
+mojo_opset/functions/__init__.py
+  h_093ac48a6d6e3e 15-16,93,116
+mojo_opset/functions/fused_norm_gate.py
+  h_093ac48a6d6e3e 1-145
+mojo_opset/kernels/_ascend_ub_manager.py
+  h_093ac48a6d6e3e 1-612
+mojo_opset/kernels/npu_a2_triton/__init__.py
+  h_093ac48a6d6e3e 40,53
+mojo_opset/kernels/npu_a2_triton/fused_norm_gate.py
+  h_093ac48a6d6e3e 1-800
+mojo_opset/kernels/npu_a5_triton/__init__.py
+  h_093ac48a6d6e3e 40,53
+mojo_opset/kernels/npu_a5_triton/fused_norm_gate.py
+  h_093ac48a6d6e3e 1-703
+mojo_opset/kernels/torch/__init__.py
+  h_093ac48a6d6e3e 52,65
+mojo_opset/kernels/torch/fused_norm_gate.py
+  h_093ac48a6d6e3e 1-211
+mojo_opset/modules/__init__.py
+  h_093ac48a6d6e3e 25-26,67-68
+mojo_opset/modules/normalization.py
+  h_093ac48a6d6e3e 133-235
+tests/modules/test_fused_norm_gate.py
+  h_093ac48a6d6e3e 1-139
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6+huawei.1",
+  "base_commit_sha": "e0cdcf40a4ceab489bf00ec3fa59d38a5e345fc2",
+  "prompts": {},
+  "humans": {
+    "h_093ac48a6d6e3e": {
+      "author": "Lyy06 <laiyingyu@huawei.com>"
+    }
+  }
+}
