@@ -1,0 +1,32 @@
+mojo_opset/functions/__init__.py
+  h_093ac48a6d6e3e 15
+mojo_opset/functions/rms_norm_gated.py
+  h_093ac48a6d6e3e 10,25,40,50,65,71,83,113-114
+mojo_opset/kernels/_ascend_ub_manager.py
+  h_093ac48a6d6e3e 14
+mojo_opset/kernels/npu_a2_triton/__init__.py
+  h_093ac48a6d6e3e 52
+mojo_opset/kernels/npu_a2_triton/rms_norm_gated.py
+  h_093ac48a6d6e3e 8,11,29,58,66,71-72,74-76,85,88-89,125,131-136,202-204,214,231,237,261,278,282,344-345,352,384-386,389,393,433,460,535-536,559,587,589,610,613,653
+mojo_opset/kernels/npu_a5_triton/__init__.py
+  h_093ac48a6d6e3e 52
+mojo_opset/kernels/npu_a5_triton/rms_norm_gated.py
+  h_093ac48a6d6e3e 8,43,46-47,86,92-97,157,166,201,207,231,248,252,308-309,316,337-339,342,346,403,457-458,481,509,511,531,534,574
+mojo_opset/kernels/torch/__init__.py
+  h_093ac48a6d6e3e 64
+mojo_opset/kernels/torch/rms_norm_gated.py
+  h_093ac48a6d6e3e 1,48,50,59,85,105-106,132,151-152
+tests/modules/test_rms_norm_gated.py
+  h_093ac48a6d6e3e 18,20-21,77,79,82-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6+huawei.1",
+  "base_commit_sha": "593907f334841fbb3777dee9224a52610ffc7c79",
+  "prompts": {},
+  "humans": {
+    "h_093ac48a6d6e3e": {
+      "author": "Lyy06 <laiyingyu@huawei.com>"
+    }
+  }
+}
